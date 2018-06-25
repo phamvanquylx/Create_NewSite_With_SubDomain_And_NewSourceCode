@@ -1,0 +1,181 @@
+/*  */
+/* Logan - 18/06/2018 */
+.bg-gradient1{
+/* 	background: #eee;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom:  0;
+	z-index: 0;
+	border-radius: 0px 19px 19px 0px; */
+}
+.ranges label{
+	display: inline-block;
+}
+.ranges label >*{
+	float: left;
+	margin-right: 5px;
+}
+.ranges label > div{
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #2c3e50;
+    padding: 3px 10px;
+    margin-left: 8px;
+}
+.ranges label span{
+	line-height: 26px;
+}
+/* .ranges label > div::after{
+    position: absolute;
+    top: 7px;
+    left: -6px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 6px solid #2c3e50;
+    border-bottom: 6px solid transparent;
+    content: '';	
+} */
+.slidecontainer{
+	position: relative;
+}
+.slidecontainer .row{
+	margin-top: 7px;
+}
+.form-group.ranges{
+	margin-bottom: 20px;
+}
+.slidecontainer input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  border: none !important;
+  background: transparent;
+  padding: 0;
+}
+.slidecontainer input[type=range]:focus {
+    outline: none;
+}
+.slidecontainer input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    border-radius: 7px;
+}
+.slidecontainer input[type=range]::-webkit-slider-thumb {
+	position: relative;
+	z-index: 1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.slidecontainer input[type=range]::-webkit-slider-thumb:hover {
+/*   	background: #03a9f4;
+	box-shadow: 0 0 0 1.5px #fff, 0 0 0 3px #1abc9c; */
+}
+.slidecontainer input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 0.3rem;
+    cursor: pointer;
+    animate: 0.2s;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    border-radius: 7px;
+}
+.slidecontainer input[type=range]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;    
+}
+.slidecontainer input[type=range]::-moz-range-thumb:hover {
+/*   	background: #03a9f4;
+	box-shadow: 0 0 0 1.5px #fff, 0 0 0 3px #1abc9c; */
+}
+.slidecontainer input[type=range]::-ms-track {
+    width: 100%;
+    height: 0.3rem;
+    cursor: pointer;
+    animate: 0.2s;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    color: transparent;
+}
+.slidecontainer input[type=range]::-ms-fill-lower {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    border-radius: 10px;
+}
+.slidecontainer input[type=range]::-ms-fill-upper {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    border-radius: 10px;
+}
+.slidecontainer input[type=range]::-ms-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 0.5rem;
+    background: #fff;
+    cursor: pointer;
+}
+.slidecontainer input[type=range]:focus::-ms-fill-lower {
+    background: #eee;
+}
+
+
+/*  */
+/* Subdomain form */
+/*  */
+.main-content-subdomain{
+    background-color: #f2f3f8;
+    height: 100vh;
+    padding-top: 50px;
+}
+.main-content-subdomain h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 24px;
+}
+.main-content-subdomain .col-sm-offset-2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.08);
+    background-color: #ffffff;
+}
+.main-content-subdomain .form-group em{
+    display: inline-block;
+    width: 100%;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
